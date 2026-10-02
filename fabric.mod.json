@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "lazytntsight",
+  "version": "${version}",
+  "name": "Lazy TNT Sight",
+  "description": "Keeps primed TNT visible in lazy chunks instead of letting the client fake its physics. Toggle with Ctrl+H.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": [ "com.example.lazytntsight.LazyTntSightClient" ] },
+  "mixins": [ "lazytntsight.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.lazytntsight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [ "PrimedTntMixin", "ClientPacketListenerMixin" ],
+  "injectors": { "defaultRequire": 1 }
+}
